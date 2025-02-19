@@ -145,7 +145,7 @@ X_test_scaled = scaler.transform(X_test)
 model.fit(X_train_scaled, y_train)
 ```
 ## SHAP Interpretation
-![SHAP Interpretation](assets/model.png)
+![SHAP Interpretation](shape.png)
 ```python
 import shap
 
